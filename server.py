@@ -16,4 +16,4 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 default_port = 10964
 
-socketio.run(app, port=default_port, debug=True)
+socketio.run(app, host="0.0.0.0", port=default_port, debug=True)

@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- General -->
-        <title>Tolino Frontend</title>
+        <title>Für mein Mädchen</title>
 
         <!-- Meta -->
         <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <body>
         <div id="header">
             <div id="branding">
-        	   <img src="./static/img/tolino.jpg">
+        	   <img src="./static/img/tolino.png" width="350">
             </div>
 
             <div id="buttons">
@@ -25,6 +25,9 @@
                     &gt;
                 </a>
             </div>
+        </div>
+        <div class="seitenzahl">
+            <p>Seite: {{ page }}</p>
         </div>
         <div id="books">
             {% for ebook in ebooks %}
