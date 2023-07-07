@@ -1,6 +1,11 @@
 # TolinoFrontend
 A selfhosted frontend for downloading ebooks on Tolino e-readers
 
+## Fork Infos
+- works with Shine 2 HD
+- now with page number
+- with docker container
+
 Since [Standaard Boekhandel](https://www.standaardboekhandel.be/) shut down its Tolino integration (and the jerry-rigged [Vivlio Cloud](https://www.standaardboekhandel.be/vivlio-e-readers/cloud) no longer works on device), I decided to build my own frontend for wirelessly transferring ebooks to my Tolino Shine.
 
 <p align="center">

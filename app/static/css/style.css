@@ -1,6 +1,6 @@
 html, body {
 	width: 567px;
-	height: 686px;
+	height: 100%;
 
 	margin: 0;
 
@@ -43,7 +43,7 @@ body {
 	width: 48px;
 	height: 48px;
 
-	font-size: 44px;
+	font-size: 32px;
 
 	text-align: center;
 
@@ -58,7 +58,7 @@ body {
 	top: 108px;
 
 	width: 100%;
-	height: 590px;
+	/* height: 590px; */
 
 	font-size: 0;
 }
@@ -97,4 +97,13 @@ body {
 
 .info.author {
 	padding-top: 0;
+}
+
+.seitenzahl p {
+	position: absolute;
+	padding-top: 630px;
+	padding-left: 45%;
+	font-size: 20px;
+	
+
 }
