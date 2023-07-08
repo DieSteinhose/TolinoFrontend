@@ -2,7 +2,7 @@
 A selfhosted frontend for downloading ebooks on Tolino e-readers
 
 ## Fork Infos
-- works with Shine 2 HD
+- works with Epos 3 [Here for Shine 2 HD](https://github.com/DieSteinhose/TolinoFrontend/tree/shine2hd)
 - now with page number
 - with docker container
 

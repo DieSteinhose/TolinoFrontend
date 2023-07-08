@@ -18,7 +18,7 @@ def index():
     if page <= 0:
         page = 1
 
-    num_ebooks = 6
+    num_ebooks = 8
     start_offset = (page - 1) * num_ebooks
 
     epubs = epubs[start_offset:start_offset + num_ebooks]
